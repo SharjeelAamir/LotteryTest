@@ -1,0 +1,134 @@
+@import "../../styles/styles.scss";
+
+.Classic_Card_Main {
+  width: 100%;
+  height: auto;
+  background: $blueCardBackground;
+  border-radius: 5px;
+  margin-top: 20px;
+  .Classic_Card_Header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+
+    > p:nth-child(2) {
+      color: $darkBlue;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    > p:nth-child(3) {
+      color: $darkBlue;
+      font-size: 20px;
+    }
+  }
+  .Classic_Table_View {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+    .Classic_Left {
+      width: 32%;
+      height: auto;
+      > p {
+        color: $darkFont;
+        font-size: 13px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: 500;
+      }
+    }
+    .Classic_Centre {
+      width: 32%;
+      height: auto;
+
+      > p {
+        color: $darkBlue;
+        font-size: 13px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: 500;
+      }
+    }
+    .Classic_Right {
+      width: 32%;
+      height: auto;
+
+      > p {
+        color: $darkFont;
+        font-size: 13px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: 500;
+      }
+    }
+  }
+  .Classic_Time_Section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background: $darkBlue;
+    padding: 0px 10px;
+
+    > p:nth-child(1) {
+      font-size: 14px;
+      color: $lightFont;
+    }
+
+    > p:nth-child(2) {
+      margin-left: 10px;
+      color: $lightFont;
+      margin-top: 20px;
+    }
+
+    > p:nth-child(3) {
+      font-size: 20px;
+      font-weight: 700;
+      margin-left: 5px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color: $lightFont;
+    }
+
+    > button {
+      margin-left: auto;
+      height: 24px;
+      width: 80px;
+      border: 1px solid $darkBlue;
+      border-radius: 5px;
+      cursor: pointer;
+      background: $lightFont;
+      color: $darkBlue;
+      font-size: 14px;
+    }
+  }
+
+  .Details_Section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+
+    > p:nth-child(1) {
+      color: $darkFont;
+      margin-top: 7px;
+      margin-bottom: 0px;
+    }
+
+    > p:nth-child(2) {
+      font-size: 13px;
+      color: $grayFont;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+  }
+}
